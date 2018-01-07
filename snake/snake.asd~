@@ -1,0 +1,7 @@
+(asdf:defsystem :snake
+    :version "0.1"
+    :name "snake"
+    :license "MIT License"
+    :depends-on (:cl-charms)
+    :serial t
+    :components ((:file "main")))
